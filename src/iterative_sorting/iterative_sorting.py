@@ -1,4 +1,5 @@
 # TO-DO: Complete the selection_sort() function below 
+# Selection sort - find smallest number and move it to index 0. Find next smallest number and move it to index 1. Continue until sorted.
 def selection_sort( arr ):
     # loop through n-1 elements
     for i in range(0, len(arr) - 1):
